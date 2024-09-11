@@ -1,0 +1,23 @@
+/* src/components/Home.css */
+#introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically centers the content */
+    align-items: center; /* Horizontally centers the content */
+    height: 100vh; /* Makes the section take up the full viewport height */
+    text-align: center; /* Center-aligns the text */
+    padding: 0 20px; /* Adds some horizontal padding */
+  }
+  
+  #introduction h1 {
+    font-size: 3rem; /* Adjust the size as needed */
+    margin-bottom: 20px; /* Space between the heading and paragraph */
+  }
+  
+  #introduction p {
+    font-size: 1.2rem; /* Smaller text size for the paragraph */
+    max-width: 800px; /* Optional: restricts the width of the paragraph */
+    margin: 0; /* Removes default margin */
+  }
+  
+  

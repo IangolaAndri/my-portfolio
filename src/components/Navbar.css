@@ -1,0 +1,29 @@
+/* src/components/Navbar.css */
+.navbar {
+    background-color: #333333;
+    padding: 40px;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+  }
+  
+  .navbar li {
+    margin-right: 15px;
+  }
+  
+  .navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px; /* Optional: adds some padding around the links */
+    font-size: 18px; /* Adjust the font size here */
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
