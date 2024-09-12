@@ -26,7 +26,7 @@ function Projects() {
           <h3>Skills learned:</h3>
           <ul>
             <li>React</li>
-            <li>Web design</li>
+            <li>CSS & Web design</li>
             <li>Responsive UI</li>
           </ul>
         </div>
@@ -44,7 +44,7 @@ function Projects() {
         <div className="project-description">
           <h2>ADHD Prediction - BrainHack</h2>
           <p>This project focuses on using machine learning to predict ADHD from brain imaging data. The project was developed
-            during the BrainHack school and aims to contribute to the field of neuroAI. The report is available on the 
+            during the BrainHack school and aims to familiarize myself with the field of neuroAI. The report is available on the 
             <a href="https://school-brainhack.github.io/project/adhd-prediction/" target="_blank" rel="noopener noreferrer">
               BrainHack school website</a> and the code is avaible on my <a href="https://github.com/brainhack-school2024/andrianarison_project"
                target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
@@ -73,35 +73,29 @@ function Projects() {
           <p>In this project, I built an application using the Spotify API to analyze users' listening habits. The app 
             retrieves data on favorite artists, tracks, and genres, and presents the information in an interactive dashboard.
             The code is available on my <a href="https://github.com/IangolaAndri/Spotify-API-Project"
-               target="_blank" rel="noopener noreferrer">GitHub</a>.</p>.
+               target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
           <h3>Skills learned:</h3>
           <ul>
             <li>JavaScript</li>
             <li>API Integration</li>
             <li>Data Visualization</li>
             <li>OAuth</li>
+            <li>Python</li>
           </ul>
         </div>
       </div>
 
       {/* Portfolio */}
       <div className="project">
-        <a href="https://github.com/IangolaAndri/Spotify-API-Project" target="_blank" rel="noopener noreferrer">
-          <img 
-              src={Spotify} 
-              alt="Spotify API Project" 
-              className="project-image"
-          />
-        </a>
         <div className="project-description">
           <h2>Portfolio Project</h2>
-          <p>In this project, I built an application using the Spotify API to analyze users' listening habits. The app 
-            retrieves data on favorite artists, tracks, and genres, and presents the information in an interactive dashboard.</p>.
+          <p>A responsive React-based website showcasing my skills, projects, and experience, featuring smooth 
+            navigation, a clean design, and integrated social media links.</p>
           <h3>Skills learned:</h3>
           <ul>
             <li>React</li>
-            <li>Git</li>
-            <li>Github</li>
+            <li>Git & GitHub</li>
+            <li>CSS & Web Design</li>
           </ul>
         </div>
       </div>

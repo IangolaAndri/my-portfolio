@@ -3,6 +3,7 @@ import './Home.css';
 
 function Home() {
   return (
+    <div className="home-background">
     <section id="introduction">
       <h1>Iangola andrianarison</h1>
       <p>Computer science master student at the University of Montréal with a
@@ -10,6 +11,7 @@ function Home() {
         I am interested in machine learning, computational biology, bioinformatics,
         neuroscience, and neuroAI.</p>
     </section>
+    </div>
   );
 }
 

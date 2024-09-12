@@ -20,6 +20,10 @@
     width: 400px; /* Adjust size as needed */
     height: auto;
     margin-right: 20px;
+    padding: 20px; /* Adds padding around the image */
+    background-color: #f0f0f0; /* Adds a light grey background color */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
   }
   
   .project-description {

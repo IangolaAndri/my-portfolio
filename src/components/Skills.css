@@ -5,25 +5,29 @@
     align-items: flex-start; /* Aligns the columns to the top */
     gap: 40px; /* Space between the columns */
     padding: 50px; /* Adds padding around the section */
-    text-align: center; /* Center-aligns the text inside the columns */
-  }
-  
-  #Skills > div {
-    flex: 1; /* Allows the columns to take equal space */
-  }
-  
-  #Skills h2 {
+    text-align: left; /* Aligns the text inside the columns to the left */
+}
+
+#Skills > div {
+    flex: 1; /* Ensures both columns (Skills and Competencies) take equal space */
+    display: flex;
+    flex-direction: column; /* Ensures the h2 and ul are stacked vertically */
+    align-items: center; /* Centers the h2 and ul horizontally */
+}
+
+#Skills h2 {
     font-size: 2rem; /* Adjust the font size as needed */
     margin-bottom: 20px; /* Space between the heading and list */
-  }
-  
-  #Skills ul {
+    text-align: center; /* Centers the h2 within its column */
+}
+
+#Skills ul {
     list-style-type: none; /* Removes default list styling */
     padding: 0; /* Removes default padding */
-  }
-  
-  #Skills li {
+}
+
+#Skills li {
     font-size: 1.2rem; /* Adjust the font size as needed */
     margin-bottom: 10px; /* Space between list items */
-  }
-  
+    text-align: left; /* Ensures the list items are aligned to the left */
+}
