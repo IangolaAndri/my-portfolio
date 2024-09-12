@@ -1,0 +1,24 @@
+/* src/components/Contact.css */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally centers the content */
+    justify-content: center; /* Vertically centers the content */
+    height: 100vh; /* Makes the div take up the full viewport height */
+    text-align: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem; /* Adjust as needed */
+  }
+  
+  a {
+    margin: 20px; /* Adds space between the images */
+  }
+  
+  img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+  }
+  
